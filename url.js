@@ -27,7 +27,7 @@ function displayUrl(UrlDetails){
   }
      
     
-function myFunction() {
+  function myFunction() {
     // Get the text field
     var copyText = document.getElementById("shorturl");
   
@@ -35,11 +35,11 @@ function myFunction() {
     copyText.select();
     copyText.setSelectionRange(0, 99999); // For mobile devices
   
-     // Copy the text inside the text field
+    // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
-  
+    
     // Alert the copied text
-    alert("Copied the URL: " + copyText.value);
+    alert("Copied the text: " + copyText.value);
   }
 
 
